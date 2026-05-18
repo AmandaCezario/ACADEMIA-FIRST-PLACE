@@ -1,0 +1,30 @@
+/* ===========================
+   SEÇÕES GERAIS
+   =========================== */
+
+section {
+  padding: 80px 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.secao-titulo {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.secao-titulo h2 {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(40px, 6vw, 64px);
+  letter-spacing: 3px;
+  color: var(--cor-branco);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.secao-titulo h2 span {
+  color: var(--cor-primaria);
+}

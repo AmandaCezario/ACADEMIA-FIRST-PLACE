@@ -1,0 +1,14 @@
+.secao-titulo p {
+  color: var(--cor-texto-suave);
+  font-size: 14px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.linha-decorativa {
+  width: 60px;
+  height: 4px;
+  background-color: var(--cor-primaria);
+  margin: 16px auto 20px;
+  border-radius: 2px;
+}

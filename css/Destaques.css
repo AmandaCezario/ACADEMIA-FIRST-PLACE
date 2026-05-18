@@ -1,0 +1,44 @@
+/* ===========================
+   SEÇÃO: DESTAQUES (index)
+   =========================== */
+
+.destaques {
+  background-color: var(--cor-cinza);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background-color: var(--cor-cinza-claro);
+  border-radius: var(--raio);
+  padding: 36px 28px;
+  border-left: 4px solid var(--cor-primaria);
+  transition: var(--transicao);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra);
+}
+
+.card-icone {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-family: var(--fonte-titulo);
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: var(--cor-branco);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--cor-texto-suave);
+  font-size: 15px;
+}

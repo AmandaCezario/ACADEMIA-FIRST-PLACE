@@ -1,0 +1,34 @@
+/* ===========================
+   SEÇÃO: STATS
+   =========================== */
+
+.secao-stats {
+  background: linear-gradient(135deg, var(--cor-primaria), #8b0000);
+  padding: 60px 24px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 40px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.stat-numero {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(52px, 8vw, 80px);
+  color: var(--cor-branco);
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.stat-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.75);
+  margin-top: 6px;
+}

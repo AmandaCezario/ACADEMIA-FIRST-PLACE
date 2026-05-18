@@ -1,0 +1,16 @@
+/* --- Identidade Visual --- */
+:root {
+  --cor-primaria: #e8272c;
+  --cor-secundaria: #111111;
+  --cor-escura: #0a0a0a;
+  --cor-cinza: #1e1e1e;
+  --cor-cinza-claro: #2e2e2e;
+  --cor-texto: #f0f0f0;
+  --cor-texto-suave: #aaaaaa;
+  --cor-branco: #ffffff;
+  --fonte-titulo: 'Bebas Neue', sans-serif;
+  --fonte-corpo: 'Barlow', sans-serif;
+  --sombra: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --raio: 4px;
+  --transicao: all 0.3s ease;
+}

@@ -1,0 +1,91 @@
+/* Planos */
+.secao-planos {
+  background-color: var(--cor-cinza);
+}
+
+.planos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 28px;
+}
+
+.plano-card {
+  background-color: var(--cor-cinza-claro);
+  border-radius: var(--raio);
+  padding: 36px 28px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: var(--transicao);
+  position: relative;
+}
+
+.plano-card.destaque {
+  border-color: var(--cor-primaria);
+}
+
+.plano-card.destaque::before {
+  content: 'MAIS POPULAR';
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 4px 16px;
+  border-radius: 100px;
+}
+
+.plano-card:hover {
+  border-color: var(--cor-primaria);
+  transform: translateY(-4px);
+}
+
+.plano-card h3 {
+  font-family: var(--fonte-titulo);
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: var(--cor-branco);
+  margin-bottom: 16px;
+}
+
+.plano-preco {
+  font-family: var(--fonte-titulo);
+  font-size: 52px;
+  color: var(--cor-primaria);
+  line-height: 1;
+}
+
+.plano-preco sub,
+.plano-preco sup {
+  font-size: 22px;
+  color: var(--cor-texto-suave);
+}
+
+.plano-periodo {
+  font-size: 13px;
+  color: var(--cor-texto-suave);
+  margin-bottom: 24px;
+}
+
+.plano-card ul {
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.plano-card ul li {
+  padding: 8px 0;
+  font-size: 14px;
+  color: var(--cor-texto-suave);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.plano-card ul li span.check {
+  color: #00c864;
+  font-weight: 700;
+}

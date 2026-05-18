@@ -1,0 +1,28 @@
+/* Navegação */
+nav ul {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+nav ul li a {
+  font-family: var(--fonte-corpo);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--cor-texto-suave);
+  padding: 8px 16px;
+  border-radius: var(--raio);
+  transition: var(--transicao);
+}
+
+nav ul li a:hover {
+  color: var(--cor-branco);
+  background-color: var(--cor-cinza);
+}
+
+nav ul li a.ativo {
+  color: var(--cor-branco);
+  background-color: var(--cor-primaria);
+}

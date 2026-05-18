@@ -1,0 +1,29 @@
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icone {
+  width: 42px;
+  height: 42px;
+  background-color: var(--cor-primaria);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  border-radius: 2px;
+}
+
+.logo-texto {
+  font-family: var(--fonte-titulo);
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: var(--cor-branco);
+  line-height: 1;
+}
+
+.logo-texto span {
+  color: var(--cor-primaria);
+}

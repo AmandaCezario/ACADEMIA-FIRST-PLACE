@@ -1,0 +1,75 @@
+/* ===========================
+   SEÇÃO: TABELA DE HORÁRIOS
+   =========================== */
+
+.secao-horarios {
+  background-color: var(--cor-escura);
+}
+
+.tabela-wrapper {
+  overflow-x: auto;
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--cor-cinza);
+  font-size: 15px;
+}
+
+thead {
+  background-color: var(--cor-primaria);
+}
+
+thead th {
+  font-family: var(--fonte-titulo);
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: var(--cor-branco);
+  padding: 16px 20px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--cor-cinza-claro);
+  transition: var(--transicao);
+}
+
+tbody tr:hover {
+  background-color: var(--cor-cinza-claro);
+}
+
+tbody td {
+  padding: 14px 20px;
+  color: var(--cor-texto-suave);
+}
+
+tbody td:first-child {
+  color: var(--cor-branco);
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge-verde {
+  background-color: rgba(0,200,100,0.15);
+  color: #00c864;
+}
+
+.badge-amarelo {
+  background-color: rgba(255,180,0,0.15);
+  color: #ffb400;
+}
+
+.badge-vermelho {
+  background-color: rgba(232,39,44,0.15);
+  color: var(--cor-primaria);
+}

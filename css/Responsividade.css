@@ -1,0 +1,99 @@
+/* ===========================
+   RESPONSIVIDADE
+   =========================== */
+
+@media (max-width: 992px) {
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Header */
+  .header-inner {
+    flex-direction: column;
+    height: auto;
+    padding: 16px 24px;
+    gap: 14px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 70vh;
+    padding: 60px 24px;
+  }
+
+  .hero-botoes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Sections */
+  section {
+    padding: 60px 24px;
+  }
+
+  /* Form */
+  .form-linha {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario-card {
+    padding: 28px 20px;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Tabela */
+  table {
+    font-size: 13px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .planos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

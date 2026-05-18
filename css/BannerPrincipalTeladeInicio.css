@@ -1,0 +1,70 @@
+/* ===========================
+     BANNER PRINCIPAL
+   =========================== */
+
+.hero {
+  background: linear-gradient(135deg, var(--cor-escura) 0%, #1a0000 50%, #2d0000 100%);
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(232,39,44,0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(232,39,44,0.08) 0%, transparent 50%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+}
+
+.hero-tag {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 100px;
+  margin-bottom: 28px;
+}
+
+.hero h1 {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(58px, 10vw, 120px);
+  line-height: 0.9;
+  letter-spacing: 4px;
+  color: var(--cor-branco);
+  margin-bottom: 24px;
+}
+
+.hero h1 span {
+  color: var(--cor-primaria);
+}
+
+.hero p {
+  font-size: clamp(16px, 2.5vw, 20px);
+  color: var(--cor-texto-suave);
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.hero-botoes {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
